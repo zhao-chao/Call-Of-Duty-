@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "844139",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "936874",
+      "name": "80%电量",
+      "font_class": "80dianliang",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1311977",
+      "name": "WIFI",
+      "font_class": "WIFI",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "2102047",
+      "name": "小于号",
+      "font_class": "xiaoyuhao",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "3277830",
+      "name": "大于号",
+      "font_class": "dayuhao",
+      "unicode": "e50b",
+      "unicode_decimal": 58635
+    },
+    {
+      "icon_id": "6936735",
+      "name": "wifi",
+      "font_class": "wifi",
+      "unicode": "e9fc",
+      "unicode_decimal": 59900
+    },
+    {
+      "icon_id": "7872843",
+      "name": "蓝牙",
+      "font_class": "lanya",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "8304553",
+      "name": "加入购物车",
+      "font_class": "ic_addToCar",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "9907240",
+      "name": "对勾",
+      "font_class": "duigou",
+      "unicode": "e57c",
+      "unicode_decimal": 58748
+    },
+    {
+      "icon_id": "14478173",
+      "name": "下拉箭头",
+      "font_class": "jiantou",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

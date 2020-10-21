@@ -1,0 +1,164 @@
+.hotspot {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	position: relative;
+	left: -11px;
+}
+.hotspot .pic {
+	position: relative;
+	background-color: #f7f7f7;
+}
+.hotspot .pic img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.hotspot .pic li {
+	width: 100%;
+
+	overflow: hidden;
+	float: left;
+}
+
+.hotspot .txt {
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.hotspot .txt .bl {
+	display: flex;
+	width: 100%;
+	margin: 20px 0 0 -1px;
+}
+.hotspot .btn {
+	float: left;
+	flex: 1;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.hotspot .btn .bg {
+	position: absolute;
+
+	height: 30px;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+	background: #000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.hotspot .btn .tt {
+	height: 30px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+	padding: 0 8px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+	*line-height: 33px;
+	cursor: pointer;
+}
+
+.hotspot .btn:hover {
+	text-decoration: none;
+}
+.hotspot .on .bg {
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.hotspot .btn {
+	width: 118px;
+}
+.hotspot .btn .bg,
+.hotspot5 .btn .last {
+	width: 131px;
+}
+.hotspot .btn .tt {
+	width: 120px;
+}
+.hotspot .on .bg {
+	background: #1387e9;
+}
+/* 动画效果 */
+.slideshow2 {
+	margin-top: 50px;
+	height: 310px;
+	background-color: rgba(18, 23, 36, 0.6);
+	border-radius: 100px;
+}
+.carousel {
+	overflow: hidden;
+	padding: 20px;
+	-webkit-perspective: 500px;
+	perspective: 1200px;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.carousel > * {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+}
+.carousel figure {
+	margin: 0;
+	width: 40%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.carousel figure img {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0px;
+}
+.carousel figure img:not(:first-of-type) {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.carousel nav {
+	height: 100px;
+	overflow: hidden;
+}
+.carousel nav button {
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(18, 23, 36, 0.6);
+}
+.icon-zuoyouhuadong {
+	color: #91c0ff;
+	font-size: 50px;
+}
+.prev {
+	position: absolute;
+	top: 100px;
+	left: 30px;
+}
+
+.next {
+	transform: rotate(180deg);
+	position: absolute;
+	top: 100px;
+	right: 30px;
+}

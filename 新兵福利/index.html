@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<!-- 引入初始化 头尾-->
+	<link rel="stylesheet" href="./css/base.css" />
+	<link rel="stylesheet" href="./css/common.css" />
+	<link rel="stylesheet" href="./css/index.css" />
+	<link rel="stylesheet" href="font/iconfont.css" />
+	<link rel="shortcut icon" href="../images/pin.jpg" />
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+	<!-- Demo styles -->
+	<style>
+		body {
+			background: #fff;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+			margin: 0;
+			padding: 0;
+		}
+
+		.swiper-container {
+			width: 300px;
+			height: 300px;
+			padding: 50px;
+		}
+
+		.swiper-slide {
+			background-position: center;
+			background-size: cover;
+			/* width: 300px;
+        height: 330px; */
+			width: 100%;
+			background-size: auto;
+			background-repeat: no-repeat;
+		}
+
+		h1 {
+			text-align: center;
+		}
+	</style>
+
+	<body>
+		<!-- 头部模块开始 -->
+		<header class="w">
+			<!-- Tencent_Games 腾讯游戏  -->
+			<a href="#" class="Tencent_Games">
+				<img src="img/2.png" alt="" />
+			</a>
+			<!-- activity  活动 -->
+			<a href="#" class="activity">
+				<img src="img/1.jpg" alt="" />
+			</a>
+			<ul>
+				<li><a href="#">成长守护平台</a></li>
+				<li><a href="#"> 腾讯游戏排行榜</a></li>
+			</ul>
+		</header>
+		<!-- 头部模块结束 -->
+
+		<!-- 头部盒子 -->
+		<div class="top-he" id="box-one">
+			<div class="top-cen w">
+				<a class="top-logo" href="#"></a>
+				<a class="pos-one" href="#">下载游戏</a>
+				<a class="pos-two" href="#">官网</a>
+				<a class="pos-there" href="#">下载急速版客户端</a>
+			</div>
+			<span class="top-wenzi">
+				亲爱的战士 请<a href="#">【登录】</a>
+			</span>
+		</div>
+		<!-- 头部写完 -->
+
+		<!-- 新手页面 -->
+		<div class="huodong w" id="box-two">
+			<span class="houdong-duihua"
+				><strong>士兵</strong>,我是你的上尉Soap，
+				这是我送给你的入伍见面礼， 注册游戏就可以获得这些武 器。</span
+			>
+			<h1 class="huodong-biaoti"></h1>
+			<p class="houdong-wenzi">今日注册即可领取角色，每个QQ仅限一次</p>
+			<div class="houdong-renwu"></div>
+			<div class="houdong-hexin">
+				<img class="houdong-img" src="./imges/图标22.png" alt="领取" />
+			</div>
+			<a class="houdong-anniu" href="#">立即领取</a>
+		</div>
+		<!-- 领取页面 -->
+		<div class="lingqv w" id="box-shere">
+			<div class="lingqv-renwu"></div>
+			<div class="lingqv-renwu-p">
+				<h1 class="lingqv-biaoti"></h1>
+				<p class="lingqv-p">
+					活动期间，领取了新兵礼包的玩家。通过累计登录可领取对应礼包。
+				</p>
+				<p>
+					累积登录6天可额外参与抽奖。限量奖励
+					<span style="color: red">每天8：00更新</span>
+				</p>
+				<p>
+					通过CODOL活动每年每种特权奖励至多获得5件，达到上限后即使抽中也无法再获得！
+				</p>
+				<div class="lingqv-top-biaoti"></div>
+			</div>
+			<div class="lingqv-out">
+				<div class="lingqv-r1">
+					<img class=".lingqv-img" src="./imges/喇叭.png" alt="" />
+					<p>小喇叭</p>
+				</div>
+				<div class="lingqv-r1">
+					<img class=".lingqv-img" src="./imges/h11.png" alt="" />
+					<p>复活币</p>
+				</div>
+				<div class="lingqv-r1">
+					<img class=".lingqv-img" src="./imges/图标7.png" alt="" />
+					<p>1888GP</p>
+				</div>
+				<div class="lingqv-r1">
+					<img class=".lingqv-img" src="./imges/图标15.png" alt="" />
+					<p>经验卡</p>
+				</div>
+				<a class="lingqv-button" href="#">领取</a>
+			</div>
+			<!-- 第一领取页面完 -->
+			<!-- 第二个领取页面 -->
+			<!-- 左边的盒子板块 -->
+			<div class="lingqv-two">
+				<h1 class="lingqv-two-biaoti"></h1>
+				<p>(三选一)</p>
+				<div class="lingqv-two-r">
+					<div class="lingqv-r2">
+						<img src="./imges/图标16.png" alt="" />
+						<p>
+							Q币<br />
+							&nbsp;
+						</p>
+						<a id="r2-anniu" href="#">领取</a>
+					</div>
+					<div class="lingqv-r2">
+						<img src="./imges/图标17.png" alt="" />
+						<p>
+							AK-47童年梦想<br />
+							(14天)
+						</p>
+						<a id="r2-anniu" href="#">领取</a>
+					</div>
+					<div class="lingqv-r2">
+						<img src="./imges/h7.png" alt="" />
+						<p>
+							圣光之翼 <br />
+							(14天)
+						</p>
+						<a id="r2-anniu" href="#">领取</a>
+					</div>
+				</div>
+			</div>
+			<!-- 右边的盒子板块 -->
+			<div class="lingqv-there">
+				<h1 class="lingqv-there-biaoti" id="aaa"></h1>
+				<p>(三选一)</p>
+				<div class="lingqv-there-l">
+					<div class="lingqv-r2">
+						<img src="./imges/图标12.png" alt="" />
+						<p>腾讯视频 <br /></p>
+						<a id="r2-anniu" href="#">领取</a>
+					</div>
+					<div class="lingqv-r2">
+						<img src="./imges/图标13.png" alt="" />
+						<p>m21 EBR 灵狐(14天)</p>
+						<a id="r2-anniu" href="#">领取</a>
+					</div>
+					<div class="lingqv-r2">
+						<img src="./imges/人物1.png" alt="" />
+						<p>人物-肥皂</p>
+						<a id="r2-anniu" href="#">领取</a>
+					</div>
+				</div>
+			</div>
+			<!-- 第二个领取页面完 -->
+			<!-- 第四个板块开始 -->
+			<div class="lingqv-fuor">
+				<h1 class="lingqv-fuor-biaoti"></h1>
+				<p>(四选一)</p>
+				<div class="lingqv-fuor-cen">
+					<div class="lingqv-r1">
+						<img src="./imges/图标16.png" alt="" />
+						<p>Q币<br /></p>
+					</div>
+					<div class="lingqv-r1">
+						<img src="./imges/图标19.png" alt="" />
+						<p>QQ会员</p>
+					</div>
+					<div class="lingqv-r1">
+						<img src="./imges/h1.png" alt="" />
+						<p>弗兰基-12 毒麟（14天</p>
+					</div>
+					<div class="lingqv-r1">
+						<img src="./imges/h2.png" alt="" />
+
+						<p>人物-幽灵</p>
+					</div>
+					<a href="#">领取</a>
+				</div>
+			</div>
+			<!-- 第四个板块写完写完 -->
+		</div>
+		<div class="boss w">
+			<div class="boss-beibao">
+				<img
+					class="lb"
+					src="./imges/轮播图/图标32.png"
+					alt="不包含手枪"
+				/>
+			</div>
+			<!-- 轮播图板块 -->
+			<div class="boss-max" id="box-four">
+				<p id="wenzi">
+					现在充值即可领取
+					<span style="color: red; margin-top: 188px">138礼包</span>
+				</p>
+				<p style="color: #fff; font-size: 30px">
+					充值并三十天内升级即可领取
+				</p>
+				<a id="boss" href="#">立即领取</a>
+				<h1 class="boss-biaoti"></h1>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div
+							class="swiper-slide"
+							style="background-image: url(./imges/轮播图/h9.png)"
+							data-img="./imges/轮播图/图标32.png"
+						></div>
+						<div
+							class="swiper-slide"
+							style="
+								background-image: url(./imges/轮播图/h10.png);
+							"
+							data-img="./imges/轮播图/图标33.png"
+						></div>
+						<div
+							class="swiper-slide"
+							style="
+								background-image: url(./imges/轮播图/h12.png);
+							"
+							data-img="./imges/轮播图/图标34.png"
+						></div>
+						<div
+							class="swiper-slide"
+							style="
+								background-image: url(./imges/轮播图/h13.png);
+							"
+							data-img="./imges/轮播图/图标35.png"
+						></div>
+						<div
+							class="swiper-slide"
+							style="
+								background-image: url(./imges/轮播图/h14.png);
+							"
+							data-img="./imges/轮播图/图标36.png"
+						></div>
+						<div
+							class="swiper-slide"
+							style="
+								background-image: url(./imges/轮播图/h15.png);
+							"
+							data-img="./imges/轮播图/图标37.png"
+						></div>
+						<span id="l"></span>
+						<span id="r"></span>
+					</div>
+					<!-- Add Pagination -->
+					<!-- 不要轮播点 -->
+					<!-- <div class="swiper-pagination"></div> -->
+
+					<!-- Add Arrows -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+			<div class="box-renwu">
+				<span
+					id="renwu"
+					style="
+						background-color: #363a46;
+						color: #fff;
+						width: 200px;
+						height: 100px;
+					"
+				>
+					<p>充值！30天达到要求级数 即可领取! ! ! !</p>
+				</span>
+			</div>
+		</div>
+		<!-- 轮播 JS -->
+		<script src="./js/swiper-bundle.min.js"></script>
+
+		<!-- 轮播 -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				effect: 'flip',
+				grabCursor: true,
+				pagination: {
+					el: '.swiper-pagination',
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			})
+		</script>
+		<!-- 轮播图板块完毕 -->
+		<div class="over">
+			<div class="erweima">
+				<img src="./imges/二维码1.png" alt="扫扫即可关注" />
+				<h1 style="color: #fff">扫码下载 &nbsp;&nbsp;&nbsp;了解更多</h1>
+			</div>
+		</div>
+		<!-- 网页底部完毕 -->
+		<a id="renwu-box">
+			<input type="text" id="kuiruo" />
+		</a>
+
+		<!-- 尾部模块开始 -->
+		<footer>
+			<div class="w">
+				<div class="left">
+					<img src="img/5.png" alt="" />
+					<img src="img/6.png" alt="" />
+				</div>
+				<div class="right">
+					<ul class="black">
+						<li><a href="#">腾讯互动娱乐</a></li>
+						<li>|</li>
+
+						<li><a href="#">服务条款</a></li>
+						<li>|</li>
+
+						<li><a href="#">隐私保护指引</a></li>
+						<li>|</li>
+
+						<li><a href="#">儿童隐私保护指引</a></li>
+						<li>|</li>
+
+						<li><a href="#">腾讯游戏招聘</a></li>
+						<li>|</li>
+
+						<li><a href="#">腾讯游戏客服</a></li>
+						<li>|</li>
+
+						<li><a href="#">游戏列表</a></li>
+						<li>|</li>
+
+						<li>
+							<a href="#">广告服务及商务合作</a>
+						</li>
+					</ul>
+					<p>
+						COPYRIGHT © 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.
+						<br />
+						Website copyright 2012-2018 Tencent. All Rights<br />
+						Reserved. Call of Duty Online game and Call of Duty<br />
+						Online content on this site are 2007-2018Activision<br />
+						Publishing, Inc.Activision and Call of Duty are<br />
+						trademarks of Activision Publishing, Inc.<br />
+						本网络游戏适合10+岁的用户使用；为了您的健康，请合理控制游戏时间。<br />
+					</p>
+					<ul class="top">
+						<li><a href="#">工商网监电子标识</a></li>
+						<li>|</li>
+
+						<li><a href="#">粤网文[2017]6138-1456号</a></li>
+						<li>|</li>
+
+						<li><a href="#">（总）网出证（粤）字第057号</a></li>
+					</ul>
+					<br />
+					<ul class="top bottom">
+						<li><a href="#">文网进字[2013]030号</a></li>
+						<li>|</li>
+
+						<li><a href="#">新广出审[2013]1504号</a></li>
+						<li>|</li>
+
+						<li>
+							<a href="#"> 全国文化市场统一举报电话：12318</a>
+						</li>
+					</ul>
+					<div class="copyright">腾讯公司版权所有</div>
+				</div>
+			</div>
+		</footer>
+		<!-- 尾部模块结束 -->
+		<script src="./js/index.js"></script>
+		<script src="./js/侧边栏.js"></script>
+	</body>
+</html>

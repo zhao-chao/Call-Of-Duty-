@@ -1,0 +1,939 @@
+body {
+  background-color: #f0f0f0;
+}
+#hide_div {
+  position: relative;
+  width: 970px;
+}
+#hide_div a {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: 10;
+  opacity: 1;
+  display: none;
+}
+/* 头部右侧隐藏模块开始 */
+body .head_none {
+  position: absolute;
+  display: none;
+  width: 707px;
+  height: 580px;
+  top: 0;
+  padding-top: 40px;
+  margin-left: 670px;
+  line-height: 1.5;
+  color: #333;
+  z-index: 999;
+}
+body .head_none > div {
+  float: left;
+  width: 224px;
+  height: 454px;
+  background-color: #fff;
+}
+body .head_none .head_none_one {
+  padding-left: 35px;
+}
+body .head_none div dl dt,
+body .head_none_one .head_none_three .head_none_four dt {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+body .head_none dd {
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+body .head_none_one dl dd > span,
+body .head_none_two dl dd > span,
+body .head_none_three dl dd > span,
+body .head_none_four dl dd > span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  color: #fff;
+  background-color: red;
+  margin-right: 8px;
+}
+body .head_none_one dl dd > b,
+body .head_none_two dl dd > b,
+body .head_none_three dl dd > b,
+body .head_none_four dl dd > b {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  background-color: #cccccc;
+  color: #fff;
+  margin-right: 8px;
+}
+body .nav_none {
+  display: none;
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top: 132px;
+  padding-top: 15px;
+  z-index: 999;
+  background: rgba(46, 52, 60, 0.5);
+}
+body .nav_none > ul {
+  position: absolute;
+  left: 363px;
+  top: 0;
+}
+body .nav_none li {
+  width: 170px;
+  text-align: center;
+  float: right;
+}
+body .nav_none li a {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+body .nav_none li a:hover {
+  color: #109ddf;
+}
+body .new_rotate:hover div {
+  transform: rotateY(360deg);
+  transition: all 0.5s linear;
+}
+nav {
+  height: 90px;
+  background-color: #121724;
+}
+nav .w {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+nav .w h1 {
+  margin-left: 15px;
+  width: 150px;
+  height: 70px;
+  background: url(../images/logo.png);
+}
+nav .w div {
+  display: flex;
+  flex: 1;
+  margin-left: 60px;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+nav .w div a {
+  text-align: center;
+  color: #ffffff;
+}
+nav .w div a h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+nav .w div a p {
+  font-size: 12px;
+  color: #9d9d9d;
+}
+.bj {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 646px;
+  background-image: url(../upload/bj.jpg);
+  background-size: 100% 630px;
+  margin-bottom: 5px;
+}
+.bj video {
+  width: 100%;
+  position: relative;
+  top: -104px;
+  left: 0;
+}
+.bj .button1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: #1e1e1e;
+  opacity: 0.6;
+}
+.bj .button1 div {
+  width: 80px;
+  height: 80px;
+  color: #007acc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  margin: auto;
+  z-index: 8;
+  font-size: 80px;
+}
+.xiazai {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  height: 130px;
+  background-image: url(../images/spr.png);
+}
+.xiazai .download {
+  display: block;
+  width: 248px;
+  height: 130px;
+  text-align: center;
+  padding-top: 20px;
+}
+.xiazai .download div {
+  margin: 0 auto;
+  width: 72px;
+  height: 63px;
+  background: url(../images/spr.png) no-repeat -118px -148px;
+}
+.xiazai .download p {
+  font-size: 18px;
+  color: #fff;
+}
+.xiazai .new {
+  width: 113px;
+  position: relative;
+  text-align: center;
+}
+.xiazai .new div {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  width: 41px;
+  height: 43px;
+  background: url(../images/spr.png) no-repeat -199px -149px;
+}
+.xiazai .new p {
+  font-size: 14px;
+  color: #fff;
+}
+.xiazai a:nth-child(3) div {
+  width: 40px;
+  background: url(../images/spr.png) no-repeat -240px -152px;
+}
+.xiazai a:nth-child(4) div {
+  background: url(../images/spr.png) no-repeat -280px -151px;
+}
+.xiazai a:nth-child(5) div {
+  background: url(../images/spr.png) no-repeat -325px -149px;
+}
+.xiazai a:nth-child(6) {
+  position: relative;
+}
+.xiazai a:nth-child(6) div {
+  width: 44px;
+  height: 43px;
+  background: url(../images/spr.png) no-repeat -376px -150px;
+}
+.xiazai a:nth-child(6) i {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 30px;
+  height: 30px;
+  background: url(../images/spr.png) no-repeat -419px -149px;
+  z-index: 99999999;
+}
+.xiazai div {
+  flex: 1;
+}
+.xiazai div div {
+  margin-left: 23px;
+  margin-top: 7px;
+  color: #99a2b6;
+}
+.xiazai div div img {
+  width: 61px;
+  height: 61px;
+}
+.xiazai div div span {
+  margin-left: 20px;
+}
+.xiazai div div span i {
+  color: #fff;
+}
+.xiazai div ul {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 23px;
+  margin-right: 12px;
+  justify-content: space-between;
+}
+.xiazai div ul li {
+  width: 96px;
+  height: 52px;
+  background-color: #3f4a64;
+  text-align: center;
+  color: #99a2b6;
+  font-size: 12px;
+}
+.xiazai div ul li h3 {
+  color: #fff;
+  margin-top: 3px;
+  font-size: 16px;
+}
+article {
+  margin-top: 5px !important;
+  display: flex;
+  justify-content: space-between;
+  height: 340px;
+}
+article .left {
+  position: relative;
+  width: 810px;
+}
+article .left ol {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 810px;
+}
+article .left ol li {
+  flex: 1;
+  height: 36px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 36px;
+  color: #bcbcbc;
+  background-color: #1f2430;
+}
+article .left ol li:hover {
+  color: #fff;
+  background-color: #1387e9;
+}
+article .right {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 340px;
+}
+article .right .nav {
+  width: 100%;
+  height: 44px;
+  display: flex;
+}
+article .right .nav li {
+  flex: 1;
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  color: #000;
+}
+article .right .nav li:hover {
+  border-bottom: 3px solid #135da2;
+}
+article .right p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #fd6d2e;
+  text-align: center;
+}
+article .right .tab {
+  width: 100%;
+}
+article .right .tab .bottom1:nth-child(n + 2) {
+  display: none;
+}
+article .right .tab .bottom1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+  justify-content: space-between;
+}
+article .right .tab .bottom1 li {
+  height: 35px;
+}
+article .right .tab .bottom1 li a {
+  font-size: 14px;
+  position: relative;
+  padding-left: 20px;
+}
+article .right .tab .bottom1 li a::before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: url(../images/spr.png) no-repeat 0 -380px;
+}
+article .right .tab .bottom1 li a i {
+  float: right;
+}
+article .right button {
+  display: block;
+  width: 410px;
+  height: 40px;
+  color: #fd6d2e;
+  background-color: #d8d8d8;
+}
+.essence {
+  height: 685px;
+  margin-top: 30px;
+}
+.essence .recommend {
+  float: left;
+  width: 810px;
+  height: 210px;
+}
+.essence .recommend h1 {
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.essence .recommend h1 i {
+  float: right;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #777a7e;
+}
+.essence .recommend div {
+  display: flex;
+  justify-content: space-between;
+}
+.essence .hot {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 410px;
+  height: 385px;
+}
+.essence .hot h1 {
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 22px;
+}
+.essence .hot h1 i {
+  float: right;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #777a7e;
+}
+.essence .hot .bottom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+  justify-content: space-between;
+}
+.essence .hot .bottom li a {
+  font-size: 12px;
+  position: relative;
+  padding-left: 20px;
+}
+.essence .hot .bottom li a::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: url(../images/spr.png) no-repeat 0 -380px;
+}
+.essence .video {
+  float: left;
+  width: 810px;
+  height: 475px;
+}
+.essence .video h1 {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.essence .video h1 i {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #777a7e;
+}
+.essence .video h1 ul {
+  flex: 1;
+  display: flex;
+}
+.essence .video h1 ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 14px;
+}
+.essence .video h1 ul li:hover {
+  border-bottom: 3px solid #135da2;
+}
+.essence .video .ul {
+  width: 810px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.essence .video .ul li {
+  width: 260px;
+  height: 210px;
+}
+.essence .video .ul li a {
+  position: relative;
+}
+.essence .video .ul li a img {
+  width: 260px;
+  height: 145px;
+}
+.essence .video .ul li a p {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #4d5054;
+  white-space: normal;
+}
+.essence .video .ul li a .yingcang {
+  display: none;
+  position: absolute;
+  top: -63px;
+  left: 0;
+  width: 260px;
+  height: 145px;
+  background: rgba(46, 52, 60, 0.5);
+  z-index: 99;
+}
+.essence .video .ul li a .yingcang div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  color: #000;
+  font-size: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 999;
+}
+.essence .video .ul li a .yingcang div span {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 30px;
+  color: #66afe0;
+}
+.essence .video .ul a:hover p {
+  color: #109ddf !important;
+}
+.essence .entrance {
+  float: right;
+  width: 410px;
+  height: 300px;
+}
+.essence .entrance h1 {
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.essence .entrance ul {
+  width: 410px;
+  display: flex;
+  height: 266px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding-bottom: 27px;
+  margin-top: 10px;
+}
+.essence .entrance ul li {
+  width: 98px;
+  height: 72px;
+}
+.essence .entrance ul li a {
+  display: block;
+  width: 98px;
+  height: 72px;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+  font-size: 14px;
+  color: #4d5054;
+}
+.essence .entrance ul li a div {
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  width: 32px;
+  height: 30px;
+  background: url(../images/spr.png) no-repeat -120px -249px;
+}
+.essence .entrance ul li a:hover span {
+  color: #109ddf !important;
+}
+.essence .entrance ul li:nth-child(2) a div {
+  background: url(../images/spr.png) no-repeat -153px -249px;
+}
+.essence .entrance ul li:nth-child(3) a div {
+  background: url(../images/spr.png) no-repeat -202px -249px;
+}
+.essence .entrance ul li:nth-child(4) a div {
+  background: url(../images/spr.png) no-repeat -243px -249px;
+}
+.essence .entrance ul li:nth-child(5) a div {
+  background: url(../images/spr.png) no-repeat -280px -249px;
+}
+.essence .entrance ul li:nth-child(6) a div {
+  background: url(../images/spr.png) no-repeat -331px -249px;
+}
+.essence .entrance ul li:nth-child(7) a div {
+  background: url(../images/spr.png) no-repeat -118px -278px;
+}
+.essence .entrance ul li:nth-child(8) a div {
+  background: url(../images/spr.png) no-repeat -149px -276px;
+}
+.essence .entrance ul li:nth-child(9) a div {
+  background: url(../images/spr.png) no-repeat -200px -279px;
+}
+.essence .entrance ul li:nth-child(10) a div {
+  background: url(../images/spr.png) no-repeat -238px -276px;
+}
+.essence .entrance ul li:nth-child(11) a div {
+  background: url(../images/spr.png) no-repeat -279px -278px;
+}
+.essence .entrance ul li:nth-child(12) a div {
+  background: url(../images/spr.png) no-repeat -332px -278px;
+}
+.activity_center {
+  height: 610px;
+}
+.activity_center .official {
+  float: left;
+  width: 810px;
+  height: 226px;
+}
+.activity_center .official h1 {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.activity_center .official h1 i {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #777a7e;
+}
+.activity_center .official h1 ul {
+  flex: 1;
+  display: flex;
+}
+.activity_center .official h1 ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 14px;
+}
+.activity_center .official h1 ul li:nth-child(-n + 3):hover {
+  border-bottom: 3px solid #135da2;
+}
+.activity_center .official .bottom {
+  height: 194px;
+  width: 405px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  padding: 11px 0;
+  justify-content: space-between;
+}
+.activity_center .official .bottom li {
+  width: 405px;
+}
+.activity_center .official .bottom li a {
+  width: 405px;
+  display: flex;
+  font-size: 12px;
+  position: relative;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+.activity_center .official .bottom li a i {
+  width: 306px;
+  overflow: hidden;
+  /*超出部分隐藏*/
+  white-space: nowrap;
+  /*让文本强制在一行不换行*/
+  text-overflow: ellipsis;
+  /*显示省略号来代表被修剪的文本*/
+}
+.activity_center .official .bottom li a::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: url(../images/spr.png) no-repeat 0 -380px;
+}
+.activity_center .official .bottom li a button {
+  margin-left: 3px;
+  height: 20px;
+  float: right;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: #fd6d30;
+  border-radius: 3px;
+}
+.activity_center .app {
+  float: right;
+  width: 410px;
+  height: 310px;
+}
+.activity_center .app h1 {
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.activity_center .app img {
+  margin-top: 15px;
+}
+.activity_center .Competition {
+  float: left;
+  width: 810px;
+  height: 384px;
+}
+.activity_center .Competition h1 {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.activity_center .Competition h1 i {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #777a7e;
+}
+.activity_center .Competition h1 ul {
+  flex: 1;
+  display: flex;
+}
+.activity_center .Competition h1 ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 14px;
+}
+.activity_center .Competition h1 ul li:nth-child(-n + 3):hover {
+  border-bottom: 3px solid #135da2;
+}
+.activity_center .Competition img {
+  margin-top: 32px;
+}
+.activity_center .Competition div {
+  float: right;
+  width: 550px;
+  height: 352px;
+}
+.activity_center .Competition div h2 {
+  position: relative;
+  height: 130px;
+  width: 520px;
+  margin-left: 30px;
+  font-size: 32px;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+}
+.activity_center .Competition div h2 i {
+  margin-top: 35px;
+  display: block;
+  width: 340px;
+  color: #000;
+  overflow: hidden;
+  /*超出部分隐藏*/
+  white-space: nowrap;
+  /*让文本强制在一行不换行*/
+  text-overflow: ellipsis;
+  /*显示省略号来代表被修剪的文本*/
+}
+.activity_center .Competition div h2 button {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  width: 140px;
+  height: 42px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fd6d2e;
+}
+.activity_center .Competition div .bottom {
+  height: 223px;
+  width: 540px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.activity_center .Competition div .bottom li {
+  width: 540px;
+}
+.activity_center .Competition div .bottom li a {
+  width: 540px;
+  display: flex;
+  font-size: 12px;
+  position: relative;
+  padding-left: 30px;
+}
+.activity_center .Competition div .bottom li a i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.activity_center .brand {
+  float: right;
+  width: 410px;
+  height: 300px;
+}
+.activity_center .brand h1 {
+  height: 32px;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+.activity_center .brand h1 i {
+  float: right;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #777a7e;
+}
+.activity_center .brand img {
+  margin-top: 14px;
+}
+.partner {
+  height: 305px;
+  padding-top: 35px !important;
+  overflow: hidden;
+}
+.partner .wx {
+  float: left;
+  display: flex;
+  width: 260px;
+  height: 305px;
+  padding-top: 50px;
+}
+.partner .wx img {
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+.partner .wx div {
+  margin-top: 17px;
+}
+.partner .wx div h4 {
+  font-size: 14px;
+  color: #545454;
+}
+.partner .wx div p {
+  font-size: 10px;
+  color: #000000;
+}
+.partner .fitness {
+  float: left;
+  width: 334px;
+  height: 100%;
+  margin-left: 74px;
+}
+.partner .fitness h4 {
+  margin-top: 67px;
+  font-size: 14px;
+  color: #545454;
+}
+.partner .fitness p {
+  font-size: 10px;
+  color: #000000;
+}
+.partner .fitness a {
+  color: #4e4e4e;
+}
+.partner .fitness a:hover {
+  color: #109ddf;
+}
+.partner .media {
+  float: left;
+  width: 220px;
+  height: 100%;
+  margin-left: 60px;
+}
+.partner .media h4 {
+  font-size: 12px;
+  margin-top: 67px;
+  color: #545454;
+}
+.partner .media img {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.partner .media select {
+  margin-top: 15px;
+  width: 220px;
+  height: 32px;
+  border: 2px solid #e5e5e5;
+}
+.partner .Intel {
+  float: left;
+  width: 264px;
+  height: 100%;
+  margin-left: 28px;
+}
+.partner .Intel h4 {
+  font-size: 12px;
+  margin-top: 67px;
+  color: #545454;
+}
+.partner .Intel img {
+  margin-top: 15px;
+}
+.partner .Intel img:nth-child(2) {
+  margin-right: 20px;
+}

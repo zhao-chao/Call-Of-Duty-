@@ -1,0 +1,82 @@
+.fixed {
+    position: fixed;
+    top: 120px;
+    right: 0;
+    width: 130px;
+    z-index: 99999;
+}
+
+.fixed li {
+    float: left;
+    width: 100%;
+    height: 46px;
+    margin-top: 23px;
+}
+
+.fixed li a {
+    display: block;
+    width: 100%;
+    height: 46px;
+    background: url(../images/sp.png) no-repeat;
+    background-position: -238px -9px;
+}
+
+.fixed li a i {
+    float: left;
+    margin: 13px 3px 0 14px;
+    width: 24px;
+    height: 21px;
+    background: url(../images/comm.png) no-repeat;
+    background-position: -190px 0px;
+}
+
+.fixed li:nth-child(1) i {
+    width: 27px;
+    height: 27px;
+    margin: 10px 5px 0 10px;
+    background: url(../images/comm.png) no-repeat;
+    background-position: -156px 0;
+}
+
+.fixed li:nth-child(2) i {
+    width: 27px;
+    height: 27px;
+    margin: 12px 5px 0 10px;
+    background: url(../images/comm.png) no-repeat;
+    background-position: -218px 0;
+}
+
+.fixed li:nth-child(3) i {
+    width: 25px;
+    height: 27px;
+    margin: 11px 5px 0 10px;
+    background: url(../images/comm.png) no-repeat;
+    background-position: -298px 0;
+}
+
+.fixed li:nth-child(4) i {
+    width: 29px;
+    height: 27px;
+    margin: 12px 3px 0 8px;
+    background: url(../images/comm.png) no-repeat;
+    background-position: -323px 0;
+}
+
+.fixed li:nth-child(5) i {
+    width: 27px;
+    height: 27px;
+    margin: 10px 5px 0 10px;
+    background: url(../images/comm.png) no-repeat;
+    background-position: -356px 0;
+}
+
+.fixed li a span {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    width: 60px;
+    font-size: 14px;
+    color: #ff6c00;
+    font-weight: bold;
+    text-align: center;
+}
